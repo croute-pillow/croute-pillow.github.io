@@ -1,12 +1,25 @@
 body{
     margin: 0px
 }
-.main { display: grid; width: 100vw; height: 100vh;
-grid-template-areas: "a a" "b c" "b d";
-grid-template-columns: 8em 1fr;
-grid-template-rows: 6em 1fr 3em }
-header { grid-area: a; background: rgb(200,240,180); padding: 1em }
-aside { grid-area: b; background: rgb(180,220,220); padding: 1em }
-section { grid-area: c; background: rgb(210,255,240); padding: 1em }
-footer { grid-area: d; background: rgb(200,240,180); padding: 1em }
-address { text-align: right }
+.main { 
+    display: grid;
+     width: 100vw;
+      height: 100vh;
+    grid-template-areas: "a a" "b c" "b d";
+    grid-template-columns: 8em 1fr;
+    grid-template-rows: 6em 1fr 3em }
+header {
+    grid-area: a; background: rgb(200,240,180); padding: 1em 
+}
+aside {
+    grid-area: b; background: rgb(180,220,220); padding: 1em 
+}
+section { 
+    grid-area: c; background: rgb(210,255,240); padding: 1em 
+}
+footer { 
+    grid-area: d; background: rgb(200,240,180); padding: 1em 
+}
+address {
+     text-align: right 
+}
