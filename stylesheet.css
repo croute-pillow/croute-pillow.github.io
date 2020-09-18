@@ -1,13 +1,3 @@
-h1{
-    color:blue;
-    background:green
-}
-body{
-    background:gray
-}
-pre{
-    background: palegoldenrod
-}
 .main{
     display: grid; width: 100vw; height: 100vh;
     grid-template-areas: "a a""b c""b d";
