@@ -9,7 +9,7 @@ body{
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 6em 1fr 3em }
 #home nav {
-    grid-area: home; background: rgb(200,240,180); padding: 1em 
+    grid-area: home; background: purple; padding: 1em 
 }
 #litter nav{
     grid-area: litter; background: rgb(200,240,180); padding: 1em 
