@@ -1,30 +1,69 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>一定時間ごとに背景色を変える</title>
-    <script type="text/javascript">
+    <meta charset="utf-8">
+    <title>果汁100%</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script language="JavaScript">
         bscd = new Array();
-        bscd[0] = "#ffffcc";
-        bscd[1] = "#ccffff";
-        bscd[2] = "#ffccff";
-        bscd[3] = "#ccccff";
-        bscd[4] = "#cccccc";
-        bscd[5] = "#ccffcc";
-        bscd[6] = "#ffcccc";
+        bscd[0] = "#000000";
+        bscd[1] = "#ffffff";
         ban_time = 1; b = 0; cnt = 0;
-
         function banban_bgcolor() {
             document.bgColor = bscd[cnt];
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 2000);
+            b = setTimeout('banban_bgcolor();', ban_time * 1000);
         }
     </script>
 </head>
 
-<body onLoad="banban_bgcolor();">
-
+<body onLoad="banban_bgcolor();" style="color : gold">
+    <div class="main">
+        <nav id="home">
+            <a class="noline" href="index.html">果汁100%</a>
+        </nav>
+        <nav id="litter">
+            <a class="noline" href="litter.html">ごみ</a>
+        </nav>
+        <nav id="nakano">
+            <a class="noline" href="nakano.html">中野ブロードウェイ</a>
+        </nav>
+        <nav id="game">
+            ゲーム
+        </nav>
+        <nav id="other">
+            他
+        </nav>
+        <section>
+            <font color="blueviolet" size="20" face="ＭＳ Ｐ明朝,ＭＳ 明朝">
+                <h1>ごみ</h1>
+            </font>
+            <p>道端に落ちてたものの中から芸術点が高いものを写真に収めました</p>
+        </section>
+        <aside>
+            試しに<a href="https://tweetdeck.twitter.com">tweetdeck</a>のリンクを埋め込んでみた。
+        </aside>
+        <footer>
+            ©柿ピーのピーの部分ってモンハンでいう狩猟笛だよね
+        </footer>
+    </div>
 </body>
 
 </html>

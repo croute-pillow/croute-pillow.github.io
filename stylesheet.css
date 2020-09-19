@@ -45,3 +45,7 @@ footer {
     padding: 1em;
     margin: 0px
 }
+.noline {
+    text-decoration: none;
+    color: gold;
+}
