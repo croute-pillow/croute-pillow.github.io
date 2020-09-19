@@ -1,5 +1,6 @@
 body{
-    margin: 0px
+    margin: 0px;
+    background-color: white
 }
 .main { 
     display: grid;
@@ -12,7 +13,7 @@ body{
     grid-area: home; background: purple; padding: 1em 
 }
 #litter nav{
-    grid-area: litter; background: rgb(200,240,180); padding: 1em 
+    grid-area: litter; background-color: rgb(200,240,180); padding: 1em 
 }
 #nakano nav{
     grid-area: nakano; background: rgb(200,240,180); padding: 1em 
