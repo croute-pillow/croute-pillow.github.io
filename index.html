@@ -20,9 +20,15 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <script language="JavaScript">
-        ban_time = 1; b = 0; cnt = 0;
-        //配列を作成
-        bcsd = new Array("gray", "blue", "whitesmoke", "purple");
+        bscd = new Array();
+            bscd[0] = "#ffffcc";
+            bscd[1] = "#ccffff";
+            bscd[2] = "#ffccff";
+            bscd[3] = "#ccccff";
+            bscd[4] = "#cccccc";
+            bscd[5] = "#ccffcc";
+            bscd[6] = "#ffcccc";
+            ban_time = 1; b = 0; cnt = 0;
         function banban_bgcolor() {
             document.bgColor = bscd[cnt];
             cnt++;
