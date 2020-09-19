@@ -21,15 +21,15 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <script language="JavaScript">
         bscd = new Array();
-        bscd[0] = "#000000";
-        bscd[1] = "#deb887";
+        bscd[0] = "#00008b";
+        bscd[1] = "#ffffff";
         ban_time = 1; b = 0; cnt = 0;
         function banban_bgcolor() {
             document.bgColor = bscd[cnt];
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 1000);
+            b = setTimeout('banban_bgcolor();', ban_time * 200);
         }
     </script>
 </head>

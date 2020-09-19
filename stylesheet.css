@@ -34,7 +34,7 @@ aside {
     grid-area: b;
     background:wheat; 
     padding: 1em;
-    margin: 0px
+    margin: 1em 0
 }
 section { 
     grid-area: c;
@@ -46,7 +46,7 @@ footer {
     grid-area: d;
     background:wheat;  
     padding: 1em;
-    margin: 0px
+    margin: 0 1em
 }
 .noline {
     text-decoration: none;
