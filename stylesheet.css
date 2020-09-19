@@ -3,8 +3,8 @@ body{
 }
 .main { 
     display: grid;
-     width: 100vw;
-      height: 100vh;
+    width: 100vw;
+    height: 100vh;
     grid-template-areas: "home litter nakano game other" "b c c c c" "d d d d d";
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 1.5em 1fr 3em
