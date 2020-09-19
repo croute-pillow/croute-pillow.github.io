@@ -31,23 +31,26 @@ nav{
     grid-area: other; padding: 1em ;margin: 0px
 }
 aside {
-    grid-area: b; 
+    grid-area: b;
+    background:wheat; 
     padding: 1em;
     margin: 0px
 }
 section { 
-    grid-area: c; 
+    grid-area: c;
+    background:wheat;  
     padding: 1em;
     margin: 0px 
 }
 footer { 
-    grid-area: d; 
+    grid-area: d;
+    background:wheat;  
     padding: 1em;
     margin: 0px
 }
 .noline {
     text-decoration: none;
-    color: gold;
+    color: midnightblue;
 }
 .box4{
     padding: 8px 19px;
