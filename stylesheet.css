@@ -8,7 +8,7 @@ body{
       height: 100vh;
     grid-template-areas: "home litter nakano game other" "b c c c c" "d d d d d";
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 3em 1.5em 1fr 3em
+    grid-template-rows: 1.5em 1fr 3em
 }
 nav{
     background-color: gray;
