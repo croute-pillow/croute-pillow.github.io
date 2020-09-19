@@ -34,7 +34,7 @@ aside {
     grid-area: b;
     background:wheat; 
     padding: 1em;
-    margin: 1em 0
+    margin: 1em 1em
 }
 section { 
     grid-area: c;
