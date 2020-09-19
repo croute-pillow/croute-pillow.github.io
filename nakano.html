@@ -20,23 +20,19 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <script language="JavaScript">
-            i = 0;
+            ban_time = 1; b = 0; cnt = 0;
         //配列を作成
-        color = new Array("gray", "blue", "whitesmoke", "purple");
-        function change() {            //配列の値を背景色に
-            i++;
-            if (i >= color.length) {
-                i = 0;
-            }
-            document.bgColor = color[i];
-        }
-        function tm() {                //タイマーをセット
-            document.bgColor = color[i];
-            tm = setInterval("change()", 5000);
+        bcsd = new Array("gray", "blue", "whitesmoke", "purple");
+        function banban_bgcolor() {
+            document.bgColor = bscd[cnt];
+            cnt++;
+            if (cnt >= bscd.length) cnt = 0;
+            clearTimeout(b);
+            b = setTimeout('banban_bgcolor();', ban_time * 2000);
         }
     </script>
 </head>
-<body onLoad="tm()">
+<body onLoad="banban_bgcolor();">
         <div class="main">
         <nav id="home">
             果汁100%
