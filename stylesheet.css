@@ -10,7 +10,6 @@ body{
     grid-template-rows: 1.5em 1fr 3em
 }
 nav{
-    background-color: gray;
     text-align: center;
     vertical-align: middle;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, .5);
