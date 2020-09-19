@@ -9,20 +9,25 @@ body{
     grid-template-areas: "home litter nakano game other" "b c c c c" "d d d d d";
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 6em 1fr 3em }
+nav{
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle
+}
 #home nav {
-    grid-area: home; background: purple; padding: 1em 
+    grid-area: home; padding: 1em 
 }
 #litter nav{
-    grid-area: litter; background-color: rgb(200,240,180); padding: 1em 
+    grid-area: litter; padding: 1em 
 }
 #nakano nav{
-    grid-area: nakano; background: rgb(200,240,180); padding: 1em 
+    grid-area: nakano; padding: 1em 
 }
 #game nav{
-    grid-area: game; background: rgb(200,240,180); padding: 1em 
+    grid-area: game; padding: 1em 
 }
 #other nav{
-    grid-area: other; background: rgb(200,240,180); padding: 1em 
+    grid-area: other; padding: 1em 
 }
 aside {
     grid-area: b; background: rgb(180,220,220); padding: 1em 
