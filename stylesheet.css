@@ -6,40 +6,46 @@ body{
     display: grid;
      width: 100vw;
       height: 100vh;
-    grid-template-areas: "a a a a a" "home litter nakano game other" "b c c c c" "d d d d d";
+    grid-template-areas: "home litter nakano game other" "b c c c c" "d d d d d";
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 3em 1.5em 1fr 3em
-}
-header {
-    grid-area: a;
-    text-align: center
 }
 nav{
     background-color: gray;
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
+    margin: 0px
 }
 #home nav {
-    grid-area: home; padding: 1em 
+    grid-area: home; padding: 1em ;margin: 0px
 }
 #litter nav{
-    grid-area: litter; padding: 1em 
+    grid-area: litter; padding: 1em ;margin: 0px
 }
 #nakano nav{
-    grid-area: nakano; padding: 1em 
+    grid-area: nakano; padding: 1em ;margin: 0px
 }
 #game nav{
-    grid-area: game; padding: 1em 
+    grid-area: game; padding: 1em ;margin: 0px
 }
 #other nav{
-    grid-area: other; padding: 1em 
+    grid-area: other; padding: 1em ;margin: 0px
 }
 aside {
-    grid-area: b; background: rgb(180,220,220); padding: 1em 
+    grid-area: b; 
+    background: rgb(180,220,220); 
+    padding: 1em;
+    margin: 0px
 }
 section { 
-    grid-area: c; background: rgb(210,255,240); padding: 1em 
+    grid-area: c; 
+    background: rgb(210,255,240); 
+    padding: 1em;
+    margin: 0px 
 }
 footer { 
-    grid-area: d; background: rgb(200,240,180); padding: 1em 
+    grid-area: d; 
+    background: rgb(200,240,180); 
+    padding: 1em;
+    margin: 0px
 }
