@@ -21,25 +21,20 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <script language="JavaScript">
         bscd = new Array();
-        bscd[0] = "#ffffcc";
-        bscd[1] = "#ccffff";
-        bscd[2] = "#ffccff";
-        bscd[3] = "#ccccff";
-        bscd[4] = "#cccccc";
-        bscd[5] = "#ccffcc";
-        bscd[6] = "#ffcccc";
+        bscd[0] = "#000000";
+        bscd[1] = "#ffffff";
         ban_time = 1; b = 0; cnt = 0;
         function banban_bgcolor() {
             document.bgColor = bscd[cnt];
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 2000);
+            b = setTimeout('banban_bgcolor();', ban_time * 1000);
         }
     </script>
 </head>
 
-<body onLoad="banban_bgcolor();">
+<body onLoad="banban_bgcolor();" style="color : gold">
     <div class="main">
         <nav id="home">
             果汁100%
@@ -58,15 +53,13 @@
         </nav>
         <section>
             <font color="blueviolet" size="80" face="ＭＳ Ｐ明朝,ＭＳ 明朝">
-                <pre>無果汁コロッケマンです。</pre>
+                <h1>中野ブロードウェイ</h1>
             </font>
-            <p>最近PS3を買ったので大神やってます。</p>
-            <p>面白いけどとうせんぼうだけはこのゲームの汚点だと思っている。</p>
-            <p>後PS3を勝った当初の目的であるP3FがPS2のゲームのくせして3000円とかするからいずれかうとは思うけど今は財布がひもじいので後で、、、</p>
-            <p>駄菓子が好きだけど最近は駄菓子屋なんてめっきりないから困ってる。スーパーボールくじを引く経験をすることは今後ないんだろうか</p>
-            <p>そろそろ書くことがなくなってきたけどこんなやつがサイト作っても続くとは思わない</p>
-            <p>久しぶりにHTML触ったけどなんとなくはできるもんだね</p>
-            <pre style="color: black">↓ firefoxでトラッキング保護とかやってると見れないtwitterのタイムライン</pre>
+            <p>私は中野ブロードウェイが好きだ。</p>
+            <p>あの秘密基地感やノスタルジックな感じは何かを買わずともただいるだけで精神的に満たされるように感じる。</p>
+            <p>今はこのような状況であるため行けていないが少し前までは月一くらいのペースで行っていた。</p>
+            <p>はまる人ははまると思うのでぜひ一度行ってみていただきたい。</p>
+            <img src="nakano.jpg" alt="中野ブロードウェイ" title="中野ブロードウェイの写真です" width="300" height="200">
         </section>
         <aside>
             試しに<a href="https://tweetdeck.twitter.com">tweetdeck</a>のリンクを埋め込んでみた。
