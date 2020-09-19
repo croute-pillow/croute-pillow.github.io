@@ -19,9 +19,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script language="JavaScript">
+            i = 0;
+        //配列を作成
+        color = new Array("gray", "blue", "whitesmoke", "purple");
+        function change() {            //配列の値を背景色に
+            i++;
+            if (i >= color.length) {
+                i = 0;
+            }
+            document.bgColor = color[i];
+        }
+        function tm() {                //タイマーをセット
+            document.bgColor = color[i];
+            tm = setInterval("change()", 5000);
+        }
+    </script>
 </head>
-<body>
-    <div class="main">
+<body onLoad="tm()">
+        <div class="main">
         <nav id="home">
             果汁100%
         </nav>
