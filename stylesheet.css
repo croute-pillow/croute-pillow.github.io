@@ -12,8 +12,7 @@ body{
 }
 header {
     grid-area: a;
-    text-align: center;
-    padding: 1em
+    text-align: center
 }
 nav{
     background-color: gray;
