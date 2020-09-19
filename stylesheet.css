@@ -12,7 +12,8 @@ body{
 nav{
     text-align: center;
     vertical-align: middle;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .5);
+    background: mediumseagreen;
+    box-shadow: 2px 2px 4px inset;
     margin: 0px
 }
 #home nav {
@@ -34,19 +35,21 @@ aside {
     grid-area: b;
     background:wheat; 
     padding: 1em;
-    margin: 1em 1em
+    margin: 0 1em 0 0;
+    border-radius: 9px;
 }
 section { 
     grid-area: c;
     background:wheat;  
     padding: 1em;
-    margin: 0px 
+    margin: 0px;
+    border-radius: 9px;
 }
 footer { 
     grid-area: d;
     background:wheat;  
     padding: 1em;
-    margin: 0 1em
+    margin: 0px
 }
 .noline {
     text-decoration: none;
