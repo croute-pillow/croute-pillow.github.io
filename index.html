@@ -36,21 +36,14 @@
 
 <body onLoad="banban_bgcolor();" style="color : midnightblue">
     <div class="main">
-        <nav id="home">
-            <a class="noline" href="index.html">果汁100%</a>
-        </nav>
-        <nav id="litter">
-            <a class="noline" href="litter.html">ポイ捨て跡</a>
-        </nav>
-        <nav id="nakano">
-            <a class="noline" href="nakano.html">中野ブロードウェイ</a>
-        </nav>
-        <nav id="game">
-            ゲーム
-        </nav>
-        <nav id="other">
-            他
-        </nav>
+    <div id="box"></div>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            $("#box").load("common.html");
+        });
+    </script>
         <article>
             <section>
                 <font color="blueviolet" size="80" face="ＭＳ Ｐ明朝,ＭＳ 明朝">
@@ -64,12 +57,6 @@
                 <p>久しぶりにHTML触ったけどなんとなくはできるもんだね</p>
             </section>
         </article>
-        <aside>
-            試しに<a href="https://tweetdeck.twitter.com">tweetdeck</a>のリンクを埋め込んでみた。
-        </aside>
-        <footer id="footer">
-            ©柿ピーのピーの部分ってモンハンでいう狩猟笛だよね
-        </footer>
     </div>
 </body>
 
