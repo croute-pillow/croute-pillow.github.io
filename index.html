@@ -32,15 +32,6 @@
             b = setTimeout('banban_bgcolor();', ban_time * 200);
         }
     </script>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script>
-        //共通パーツ読み込み
-        $(function () {
-            $("#header").load("header.html");
-            $("#aside").load("aside.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
 </head>
 
 <body onLoad="banban_bgcolor();" style="color : midnightblue">
@@ -76,7 +67,9 @@
         <aside>
             試しに<a href="https://tweetdeck.twitter.com">tweetdeck</a>のリンクを埋め込んでみた。
         </aside>
-        <div id="footer"></div>
+        <footer id="footer">
+            ©柿ピーのピーの部分ってモンハンでいう狩猟笛だよね
+        </footer>
     </div>
 </body>
 
