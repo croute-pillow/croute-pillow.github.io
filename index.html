@@ -32,6 +32,15 @@
             b = setTimeout('banban_bgcolor();', ban_time * 200);
         }
     </script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        //共通パーツ読み込み
+        $(function () {
+            $("#header").load("header.html");
+            $("#aside").load("aside.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body onLoad="banban_bgcolor();" style="color : midnightblue">
