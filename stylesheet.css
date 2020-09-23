@@ -40,10 +40,16 @@ aside {
 }
 article { 
     grid-area: c;
-    background:wheat;  
     padding: 1em;
     margin: 0px;
     border-radius: 9px;
+}
+section{
+    background: whitesmoke;
+    margin: 1em;
+    border-top: double 10px mediumslateblue;
+    border-bottom: double 10px mediumslateblue;
+    border-radius: 12px;
 }
 footer { 
     grid-area: d;
@@ -58,7 +64,6 @@ footer {
 .box4{/*タイトルで使ってる枠*/
     padding: 8px 19px;
     margin: 2em 0;
-    background: wheat;
     border-bottom: solid 5px #5989cf;
 }
 .limg{/*litterの画像用*/
