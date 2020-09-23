@@ -35,7 +35,6 @@ aside {
     grid-area: b;
     padding: 1em;
     margin: 0;
-    border-radius: 9px;
 }
 article { 
     grid-area: c;
