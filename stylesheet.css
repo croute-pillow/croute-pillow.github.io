@@ -64,8 +64,14 @@ footer {
 .box4{/*タイトルで使ってる枠*/
     padding: 8px 19px;
     margin: 2em 0;
-    border-bottom: solid 5px #5989cf;
+    background: whitesmoke;
+    border-bottom: solid 5px #abad2c;
 }
 .limg{/*litterの画像用*/
     display: inline-block;
     text-align: center;
+}
+#lintro{
+    background: whitesmoke;
+    border: inset 15px #694eff6e;
+}
