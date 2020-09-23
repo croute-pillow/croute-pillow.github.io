@@ -51,16 +51,16 @@ footer {
     padding: 1em;
     margin: 0px
 }
-.noline {
+.noline {/*リンクを他と同じように表示*/
     text-decoration: none;
     color: midnightblue;
 }
-.box4{
+.box4{/*タイトルで使ってる枠*/
     padding: 8px 19px;
     margin: 2em 0;
     background: wheat;
     border-bottom: solid 5px #5989cf;
 }
-.limg{
+.limg{/*litterの画像用*/
     float: left
 }
