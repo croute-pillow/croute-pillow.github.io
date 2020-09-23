@@ -38,6 +38,10 @@
             clearTimeout(b);
             b = setTimeout('banban_bgcolor();', ban_time * 200);
         }
+        function safe() {
+            ban_time = 3600000;
+            return;
+        }
     </script>
 </head>
 
@@ -73,7 +77,7 @@
         <aside onLoad="banban_bgcolor();">
             試しに<a href="https://tweetdeck.twitter.com" target="_blank">tweetdeck</a>のリンクを埋め込んでみた。
         </aside>
-        <footer>
+        <footer onclick="safe()">
             ©柿ピーのピーの部分ってモンハンでいう狩猟笛だよね
         </footer>
     </div>
