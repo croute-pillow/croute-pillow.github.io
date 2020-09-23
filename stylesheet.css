@@ -45,6 +45,7 @@ article {
 section{
     background: whitesmoke;
     margin: 1em;
+    padding: 1em;
     border-top: double 10px mediumslateblue;
     border-bottom: double 10px mediumslateblue;
     border-radius: 12px;
