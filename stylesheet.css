@@ -62,5 +62,5 @@ footer {
     border-bottom: solid 5px #5989cf;
 }
 .limg{/*litterの画像用*/
-    float: left
-}
+    display: inline-block;
+    text-align: center;
