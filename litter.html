@@ -23,13 +23,20 @@
         bscd = new Array();
         bscd[0] = "#00008b";
         bscd[1] = "#ffffff";
+        bscd[2] = "#ff00ff";
+        bscd[3] = "#00ff00";
+        bscd[4] = "#40e0d0";
+        bscd[5] = "#006400";
+        bscd[6] = "#ffa500";
+        bscd[7] = "#ffd700";
+        bscd[8] = "#dc143c";
         ban_time = 1; b = 0; cnt = 0;
         function banban_bgcolor() {
             document.bgColor = bscd[cnt];
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 200);
+            b = setTimeout('banban_bgcolor();', ban_time * 150);
         }
     </script>
 </head>
@@ -140,7 +147,8 @@
             </section>   
         </article>
         <aside>
-            ページ内リンク
+            <div class="esside">
+            ページ内のリンクだよ。いちいちスクロールするのが面倒くさいよ！という怠惰なあなたは使うといいでしょう。
             <ul>
                 <li><a href="#tokegomu">溶けたゴムのごみ</a></li>
                 <li><a href="#tabagomi">たばこのごみ</a></li>
@@ -154,6 +162,7 @@
                 <li><a href="#tuburegomi">潰れた缶飲料のごみ</a></li>
                 <li><a href="#umaigomi">うまい棒のごみ</a></li>
             </ul>
+            </div>
         </aside>
         <footer>
             ©柿ピーのピーの部分ってモンハンでいう狩猟笛だよね

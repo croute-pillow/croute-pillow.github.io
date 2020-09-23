@@ -33,7 +33,6 @@ nav{
 }
 aside {
     grid-area: b;
-    background:wheat; 
     padding: 1em;
     margin: 0 1em 0 0;
     border-radius: 9px;
@@ -71,7 +70,11 @@ footer {
     display: inline-block;
     text-align: center;
 }
+.esside{
+    background:whitesmoke;
+    border:outset 2px #5f00ad1c;
+}
 #lintro{
     background: whitesmoke;
-    border: inset 15px #694eff6e;
+    border: inset 10px #694eff6e;
 }
