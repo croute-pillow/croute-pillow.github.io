@@ -36,8 +36,13 @@
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 150);
-        }
+            b = setTimeout('banban_bgcolor();', ban_time * 200);
+                    document.onclick = safe();
+                }
+                function safe() {
+                    ban_time = 3600000;
+                    return;
+                }
     </script>
 </head>
 
