@@ -1,5 +1,6 @@
 body{
-    margin: 0px
+    margin: 0px;
+    font-family: "M PLUS Rounded 1c"; 
 }
 .main { 
     display: grid;
@@ -15,6 +16,7 @@ nav{
     margin: 0px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius: 20px;
+    font-family: "Nico Moji"; 
 }
 #home{
     grid-area: home;
