@@ -37,7 +37,7 @@
             document.bgColor = "#060630";
             if(flg2 == 1){
                 flg = -1 * flg;
-                yesno();
+                button_party();
             }
             if(flg == 1){
                 document.bgColor = bscd[cnt];
@@ -51,12 +51,12 @@
             document.bgColor = "#060630";
             return;
         }
-        function yesno() {
+        function button_party() {
             if (p == 0) {
-                document.getElementById("party").value = 'Yes';
+                document.getElementById("party").value = 'もどす';
                 p = 1;
             } else {
-                document.getElementById("party").value = 'No';
+                document.getElementById("party").value = 'PARTY';
                 p = 0;
             }
         }
