@@ -32,16 +32,18 @@
             bscd[6] = "#ffa500";
             bscd[7] = "#ffd700";
             bscd[8] = "#dc143c";
-            ban_time = 1; b = 0; cnt = 0;
+            ban_time = 1; b = 0; cnt = 0; flg = 1;
         function banban_bgcolor() {
-            document.bgColor = bscd[cnt];
+            if(flg == 1){
+                document.bgColor = bscd[cnt];
+            }
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
             b = setTimeout('banban_bgcolor();', ban_time * 200);
         }
-        function safe(){
-            ban_time = 3600000;
+        function change(){
+            flg = -1 * flg;
             return;
         }
     </script>
@@ -80,11 +82,10 @@
     <aside>
         <div class="esside">
             <p>上の5つのタブをクリックするとそれぞれのページに行けるよ</p>
-            <button type="button" value="Exec" onclick="banban_bgcolor()">意味深なボタン</button>
-            <button type="button" value="Exec" onclick="location.href='./game.html'">うんち</button>
+            <button type="button" value="Exec" id="party" onclick="banban_bgcolor()">意味深なボタン</button>
         </div>
     </aside>
-    <footer onclick="safe()">
+    <footer onclick="change()">
         © 2020 croute-pillow
     </footer>
     </div>

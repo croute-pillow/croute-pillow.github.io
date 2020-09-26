@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
-    background: rgb(6, 6, 48);
 }
 .main { 
     display: grid;
@@ -92,5 +91,6 @@ footer {
 #lintro{
     background: whitesmoke;
     margin: 1em;
+    padding: 1em;
     border: inset 10px #694eff6e;
 }
