@@ -105,15 +105,15 @@ footer {
     display: inline-block;
     text-align: left;
     max-width: 180px;
-    background-color: #9ec34b;
+    background-color: rgb(72, 72, 145);
     font-size: 16px;
-    color: #84a01f;
+    color: midnightblue;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 18px;
     margin: 0px 0px 4px 0px;
-    border-bottom: 4px solid #84a01f;
-    text-shadow: 1px 1px 1px rgba(255 ,255, 255,0.7);
+    border-bottom: 4px solid midnightblue;
+    text-shadow: 1px 1px 1px rgba(255 ,255, 255, 0.3);
     border-radius: 4px;
 }
 #party:active{
