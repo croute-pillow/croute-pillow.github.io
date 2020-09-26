@@ -97,3 +97,7 @@ footer {
     padding: 1em;
     border: inset 10px #694eff6e;
 }
+#party{
+    font-size: 15px;
+    border-radius: 50%;
+}
