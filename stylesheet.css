@@ -5,6 +5,10 @@ body{
 .safe{
     background: #060630;
 }
+ul{
+    list-style: none;
+    padding-bottom: 5px;
+}
 .main { 
     display: grid;
     width: 100vw;
