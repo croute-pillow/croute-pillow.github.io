@@ -14,30 +14,30 @@ nav{
     text-align: center;
     box-shadow: 2px 2px 4px inset;
     margin: 0px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius: 20px;
+    padding: 5px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
     font-family: "Nico Moji"; 
+    font-size: 15px;
 }
 #home{
     grid-area: home;
-    padding: 0px;
-    margin: 0px;
     background: mediumpurple;
 }
 #litter{
-    grid-area: litter; padding: 0px ;margin: 0px;
+    grid-area: litter;
     background: wheat;
 }
 #nakano{
-    grid-area: nakano; padding:0px ;margin: 0px;
+    grid-area: nakano;
     background:tomato;
 }
 #game{
-    grid-area: game; padding: 0px ;margin: 0px;
+    grid-area: game;
     background: rgb(245, 199, 82);
 }
 #other{
-    grid-area: other; padding:0px ;margin: 0px;
+    grid-area: other;
     background: mediumseagreen;
 }
 aside {
