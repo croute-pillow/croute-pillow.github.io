@@ -25,7 +25,11 @@
         p=0;
         function yesno(){
             if(p==0){
-                document.getElementById("party").value='yes';
+                document.getElementById("party").value='Yes';
+                p=1;
+            }else{
+                document.getElementById("party").value='No';
+                p=0;
             }
         }
     </script>
