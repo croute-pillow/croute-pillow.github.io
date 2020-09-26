@@ -34,18 +34,17 @@
             bscd[8] = "#dc143c";
             ban_time = 1; b = 0; cnt = 0; flg = -1;
         function banban_bgcolor(flg2) {
+            document.bgColor = "#060630";
             if(flg2 == 1){
                 flg = -1 * flg;
             }
             if(flg == 1){
                 document.bgColor = bscd[cnt];
-            }else if(flg == -1){
-                document.bgColor = "#060630";
             }
             cnt++;
             if (cnt >= bscd.length) cnt = 0;
             clearTimeout(b);
-            b = setTimeout('banban_bgcolor(0);', ban_time * 400);
+            b = setTimeout('banban_bgcolor(0);', ban_time * 50);
         }
     </script>
 </head>
