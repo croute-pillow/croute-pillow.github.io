@@ -13,7 +13,7 @@ body{
 }
 nav{
     text-align: center;
-    box-shadow: 2px 2px 4px inset;
+    box-shadow: 10px 10px 15px -10px;
     margin: 0px;
     padding: 5px;
     border-bottom-left-radius:15px;
@@ -59,6 +59,7 @@ section{
     border-top: double 10px mediumslateblue;
     border-bottom: double 10px mediumslateblue;
     border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px;
 }
 footer { 
     grid-area: d;
@@ -73,8 +74,9 @@ footer {
     padding: 8px 19px;
     margin: 2em 0;
     background: whitesmoke;
-    border-bottom: solid 5px #abad2c;
+    border-bottom: solid 5px mediumslateblue;
     border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px;
 }
 .limg{/*litterの画像用*/
     display: inline-block;
@@ -84,6 +86,7 @@ footer {
     background:whitesmoke;
     border:outset 2px #5f00ad1c;
     border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px;
 }
 #lintro{
     background: whitesmoke;
