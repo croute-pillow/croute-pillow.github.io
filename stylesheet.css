@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
-    background: gray 
+    background: rgb(6, 6, 48);
 }
 .main { 
     display: grid;
@@ -72,11 +72,11 @@ footer {
 }
 .box4{/*タイトルで使ってる枠*/
     padding: 8px 19px;
-    margin: 2em 0;
+    margin: 0;
     background: whitesmoke;
-    border-bottom: solid 5px mediumslateblue;
+    border-bottom: solid 5px tomato;
     border-radius: 12px;
-    box-shadow: 10px 10px 15px -10px;
+    box-shadow: 10px 10px 15px -10px rgba(255, 255, 255, 1);
 }
 .limg{/*litterの画像用*/
     display: inline-block;
