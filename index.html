@@ -46,10 +46,14 @@
             clearTimeout(b);
             b = setTimeout('banban_bgcolor(0);', ban_time * 50);
         }
+        function first(){
+            document.bgColor = "#060630";
+            return;
+        }
     </script>
 </head>
 
-<body style="color : midnightblue">
+<body onload="first();" style="color : midnightblue">
     <div class="main">
     <nav id="home" onclick="location.href='./index.html'">
         カジュウ100%
