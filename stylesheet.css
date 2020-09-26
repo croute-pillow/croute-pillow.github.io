@@ -1,6 +1,7 @@
 body{
     margin: 0px;
-    font-family: "M PLUS Rounded 1c"; 
+    font-family: "M PLUS Rounded 1c";
+    background: gray 
 }
 .main { 
     display: grid;
@@ -73,6 +74,7 @@ footer {
     margin: 2em 0;
     background: whitesmoke;
     border-bottom: solid 5px #abad2c;
+    border-radius: 12px;
 }
 .limg{/*litterの画像用*/
     display: inline-block;
@@ -81,6 +83,7 @@ footer {
 .esside{
     background:whitesmoke;
     border:outset 2px #5f00ad1c;
+    border-radius: 12px;
 }
 #lintro{
     background: whitesmoke;
