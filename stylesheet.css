@@ -76,7 +76,8 @@ footer {
     background: whitesmoke;
     border-bottom: solid 5px tomato;
     border-radius: 12px;
-    box-shadow: 10px 10px 15px -10px rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 15px -10px ;
+    font-family: "M PLUS Rounded 1c";
 }
 .limg{/*litterの画像用*/
     display: inline-block;
@@ -90,5 +91,6 @@ footer {
 }
 #lintro{
     background: whitesmoke;
+    margin: 1em;
     border: inset 10px #694eff6e;
 }
