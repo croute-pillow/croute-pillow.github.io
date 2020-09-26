@@ -101,3 +101,6 @@ footer {
     font-size: 15px;
     border-radius: 50%;
 }
+#party:visited{
+    content: "party"
+}
