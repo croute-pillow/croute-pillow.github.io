@@ -21,33 +21,9 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
-    <script language="JavaScript">
-        bscd = new Array();
-        bscd[0] = "#00008b";
-        bscd[1] = "#ffffff";
-        bscd[2] = "#ff00ff";
-        bscd[3] = "#00ff00";
-        bscd[4] = "#40e0d0";
-        bscd[5] = "#006400";
-        bscd[6] = "#ffa500";
-        bscd[7] = "#ffd700";
-        bscd[8] = "#dc143c";
-        ban_time = 1; b = 0; cnt = 0;
-        function banban_bgcolor() {
-            document.bgColor = bscd[cnt];
-            cnt++;
-            if (cnt >= bscd.length) cnt = 0;
-            clearTimeout(b);
-            b = setTimeout('banban_bgcolor();', ban_time * 200);
-        }
-        function safe() {
-            ban_time = 3600000;
-            return;
-        }
-    </script>
 </head>
 
-<body onLoad="banban_bgcolor();" style="color : midnightblue">
+<body style="color : midnightblue">
     <div class="main">
         <nav id="home">
             <a class="noline" href="index.html">カジュウ100%</a>
@@ -170,7 +146,7 @@
             </ul>
             </div>
         </aside>
-        <footer onclick="safe()">
+        <footer>
             © 2020 croute-pillow
             <a href="#">ページトップへ</a>
         </footer>
