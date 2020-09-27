@@ -98,11 +98,11 @@ footer {
     border-radius: 12px;
     box-shadow: 10px 10px 15px -10px;
 }
-#lintro{
+.lintro{
     background: whitesmoke;
     margin: 1em;
     padding: 1em;
-    border: inset 10px #694eff6e;
+    border: inset 10px mediumpurple;
 }
 #party{
     display: inline-block;
