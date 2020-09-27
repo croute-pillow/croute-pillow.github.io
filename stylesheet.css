@@ -1,3 +1,4 @@
+@media screen and (min-width:1024px) {
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
@@ -123,15 +124,8 @@ footer {
     transform: translateY(4px);
     border-bottom: none;
 }
+}
 
 @media screen and (max-width: 500px){
-    .box4{/*タイトルで使ってる枠*/
-        padding: 8px 19px;
-        margin: 0;
-        background: whitesmoke;
-        border-bottom: solid 5px teal;
-        border-radius: 12px;
-        box-shadow: 10px 10px 15px -10px ;
-        font-family: "M PLUS Rounded 1c";
-    }
+    
 }
