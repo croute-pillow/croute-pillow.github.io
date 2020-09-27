@@ -166,7 +166,7 @@ nav{
     border-bottom-left-radius:15px;
     border-bottom-right-radius: 15px;
     font-family: "Nico Moji"; 
-    font-size: 15px;
+    font-size: 3.3rem;
 }
 #home{
     grid-area: home;
