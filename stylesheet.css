@@ -85,6 +85,7 @@ footer {
     border-radius: 12px;
     box-shadow: 10px 10px 15px -10px ;
     font-family: "M PLUS Rounded 1c";
+    font-size: 1.3rem;
 }
 .limg{/*litterの画像用*/
     display: inline-block;
@@ -224,6 +225,7 @@ footer {
     border-radius: 12px;
     box-shadow: 10px 10px 15px -10px ;
     font-family: "M PLUS Rounded 1c";
+    font-size: 3.5rem;
 }
 .limg{/*litterの画像用*/
     display: inline-block;
