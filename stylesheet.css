@@ -127,5 +127,128 @@ footer {
 }
 
 @media screen and (max-width: 500px){
-    
+body{
+    margin: 0px;
+    font-family: "M PLUS Rounded 1c";
+}
+.safe{
+    background: #060630;
+}
+ul{
+    list-style: none;
+    padding-bottom: 5px;
+}
+.main { 
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: "home litter nakano game other" "c c c c c" "d d d d d";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 2em 1fr 3em
+}
+nav{
+    text-align: center;
+    box-shadow: 10px 10px 15px -10px;
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+    font-family: "Nico Moji"; 
+    font-size: 15px;
+}
+#home{
+    grid-area: home;
+    background: mediumpurple;
+}
+#litter{
+    grid-area: litter;
+    background: wheat;
+}
+#nakano{
+    grid-area: nakano;
+    background:tomato;
+}
+#game{
+    grid-area: game;
+    background: rgb(245, 199, 82);
+}
+#other{
+    grid-area: other;
+    background: mediumseagreen;
+}
+aside {
+    padding: 1em;
+    margin: 0;
+}
+article { 
+    grid-area: c;
+    padding: 1em;
+    margin: 0px;
+    border-radius: 9px;
+}
+section{
+    background: whitesmoke;
+    margin: 1em 0em 1em 0em;
+    padding: 1em;
+    border-top: double 10px mediumslateblue;
+    border-bottom: double 10px mediumslateblue;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px;
+}
+footer { 
+    grid-area: d;
+    background:whitesmoke;  
+    padding: 1em;
+    margin: 0px
+}
+.noline {/*リンクを他と同じように表示*/
+    color: midnightblue;
+}
+.box4{/*タイトルで使ってる枠*/
+    padding: 8px 19px;
+    margin: 0;
+    background: whitesmoke;
+    border-bottom: solid 5px tomato;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px ;
+    font-family: "M PLUS Rounded 1c";
+}
+.limg{/*litterの画像用*/
+    display: inline-block;
+    text-align: center;
+}
+.esside{
+    position: fixed;
+    left: 1px;
+    max-width: 20%;
+    background:whitesmoke;
+    border:outset 2px #5f00ad1c;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px -10px;
+}
+.lintro{
+    background: whitesmoke;
+    margin: 1em;
+    padding: 1em;
+    border: inset 10px mediumpurple;
+}
+#party{
+    display: inline-block;
+    text-align: left;
+    max-width: 180px;
+    background-color: rgb(72, 72, 145);
+    font-size: 16px;
+    color: midnightblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 18px;
+    margin: 0px 0px 4px 0px;
+    border-bottom: 4px solid midnightblue;
+    text-shadow: 1px 1px 1px rgba(255 ,255, 255, 0.3);
+    border-radius: 4px;
+}
+#party:active{
+    transform: translateY(4px);
+    border-bottom: none;
+}
 }
