@@ -90,6 +90,9 @@ footer {
     text-align: center;
 }
 .esside{
+    position: fixed;
+    margin: 0px;
+    max-width: 20%;
     background:whitesmoke;
     border:outset 2px #5f00ad1c;
     border-radius: 12px;
