@@ -1,4 +1,4 @@
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 851px) {
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
@@ -135,7 +135,7 @@ footer {
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
 html{
     font-size: 62.5%;
 }
