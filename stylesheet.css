@@ -127,10 +127,13 @@ footer {
 }
 
 @media screen and (min-width: 480px){
+html{
+    font-size: 62.5%;
+}
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
-    font-size: 15px;
+    font-size: 1.4rem;
 }
 .safe{
     background: #060630;
