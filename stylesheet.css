@@ -130,6 +130,7 @@ footer {
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
+    font-size: 15px;
 }
 .safe{
     background: #060630;
