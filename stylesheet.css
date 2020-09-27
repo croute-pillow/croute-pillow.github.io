@@ -1,7 +1,11 @@
 @media screen and (min-width:1024px) {
+html{
+    font-size: 62.55;
+}
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
+    font-size: 1.6rem;
 }
 .safe{
     background: #060630;
@@ -128,12 +132,12 @@ footer {
 
 @media screen and (min-width: 480px){
 html{
-    font-size: 25px;
+    font-size: 62.5%;
 }
 body{
     margin: 0px;
     font-family: "M PLUS Rounded 1c";
-    font-size: 25px;
+    font-size: 3.3rem;
 }
 .safe{
     background: #060630;
